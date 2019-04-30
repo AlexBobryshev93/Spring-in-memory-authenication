@@ -24,9 +24,9 @@ That's why {noop} is needed*/
                         .password("{noop}password")
                         .authorities("ROLE_USER")
                     .and()
-                    .withUser("user1")
+                    .withUser("admin")
                         .password("{noop}password")
-                        .authorities("ROLE_USER");
+                        .authorities("ROLE_ADMIN");
 
     }
 }
